@@ -58,7 +58,7 @@ const Hero = () => {
 
       <div className="hero-actions">
         <a
-          href="http://wa.me/554197890787"
+          href="http://elarin.com.br/"
           target="_blank"
           className="btn btn-primary"
           onClick={() => {
@@ -73,7 +73,7 @@ const Hero = () => {
         </a>
 
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLScMvDQ7ifLiYIJ51jqW7NBxkpuhGjjpOcc-8WUVsbISYz3NPA/viewform?usp=sharing&ouid=106221566675210606121"
+          href="http://elarin.com.br/"
           target="_blank"
           className="btn btn-secondary"
           onClick={() => {
