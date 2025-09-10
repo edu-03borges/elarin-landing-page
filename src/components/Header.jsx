@@ -8,7 +8,7 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <div className="logo">
-          <img src="/images/logo.png" alt="Elarin" className="logo-image" />
+          <img src="images/logo.png" alt="Elarin" className="logo-image" />
         </div>
 
         <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
