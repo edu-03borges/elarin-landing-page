@@ -1,0 +1,138 @@
+.features {
+  background-color: white;
+}
+
+.features-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.features-title {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  color: #171a20;
+  line-height: 1.2;
+}
+
+.features-description {
+  font-size: 20px;
+  color: #5c5e62;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.feature-item {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.feature-icon {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, #e31837, #ff6b35);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+
+.feature-item:hover .feature-icon {
+  transform: scale(1.1);
+  box-shadow: 0 8px 25px rgba(227, 24, 55, 0.3);
+}
+
+.feature-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #171a20;
+}
+
+.feature-description {
+  font-size: 16px;
+  color: #5c5e62;
+  line-height: 1.6;
+}
+
+.features-image {
+  position: relative;
+}
+
+.app-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.app-image:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.2);
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .features-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+  
+  .features-title {
+    font-size: 36px;
+  }
+  
+  .features-description {
+    font-size: 18px;
+  }
+  
+  .feature-item {
+    text-align: left;
+  }
+  
+  .feature-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .feature-title {
+    font-size: 18px;
+  }
+  
+  .feature-description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .features-title {
+    font-size: 28px;
+  }
+  
+  .features-description {
+    font-size: 16px;
+  }
+  
+  .features-list {
+    gap: 24px;
+  }
+  
+  .feature-item {
+    gap: 16px;
+  }
+}
+

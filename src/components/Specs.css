@@ -1,0 +1,125 @@
+.specs {
+  background-color: #f7f7f7;
+}
+
+.specs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.spec-category {
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.spec-category:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+}
+
+.spec-category-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #171a20;
+  text-align: center;
+  position: relative;
+}
+
+.spec-category-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #e31837, #ff6b35);
+  border-radius: 2px;
+}
+
+.spec-item {
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #eee;
+}
+
+.spec-item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.spec-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #171a20;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.spec-value {
+  font-size: 16px;
+  color: #5c5e62;
+  line-height: 1.6;
+}
+
+.specs-image {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.panel-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.panel-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.2);
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .specs-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .spec-category {
+    padding: 30px 20px;
+  }
+  
+  .spec-category-title {
+    font-size: 24px;
+  }
+  
+  .spec-title {
+    font-size: 14px;
+  }
+  
+  .spec-value {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .spec-category-title {
+    font-size: 20px;
+  }
+  
+  .spec-item {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+}
+
