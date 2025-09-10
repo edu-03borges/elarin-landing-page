@@ -17,12 +17,6 @@
   margin: 0 auto;
 }
 
-.zavta-logo {
-  font-size: 40px;
-  color: #fff;
-  font-family: 'Ailerons', sans-serif;
-}
-
 .logo-image {
   height: 35px;
   width: auto;
@@ -118,10 +112,6 @@
 @media (max-width: 480px) {
   .header-container {
     padding: 0 16px;
-  }
-
-  .zavta-logo {
-    font-size: 30px;
   }
 
   .logo-image {
