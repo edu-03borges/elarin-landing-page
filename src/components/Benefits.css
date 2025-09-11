@@ -14,11 +14,15 @@
 .benefit-card-secondary {
   border-radius: 8px;
   overflow: hidden;
-  height: 800px;
+  height: 650px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 50px 40px;
+}
+
+.benefit-card-secondary {
+  height: 700px;
 }
 
 .benefit-card-main {

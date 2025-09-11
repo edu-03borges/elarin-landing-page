@@ -18,7 +18,7 @@ const Benefits = () => {
         description="Software inteligente que utiliza Inteligência Artificial Generativa para analisar e corrigir, em tempo real, os movimentos durante os treinos. <br/> Oferecemos uma experiência segura, eficiente e personalizada, reduzindo riscos de lesões."
         imgSrc="images/move.png"
         imgAlt="Elarin AI"
-        imgStyle={{ width: '100%', maxWidth: 900, marginBottom: 20, borderRadius: 10 }}
+        imgStyle={{ width: '100%', maxWidth: 600, marginBottom: 20, borderRadius: 10 }}
         onSaibaMais={() => openDialog('elarin')}
         onAdquirir={handleAdquirir}
       />
@@ -30,7 +30,7 @@ const Benefits = () => {
           description="Nossa IA analisa seus movimentos instantaneamente, fornecendo feedback imediato sobre a execução correta dos exercícios. Interface intuitiva e fácil de usar."
           imgSrc="images/woman.png"
           imgAlt="Análise em Tempo Real"
-          imgStyle={{ width: '100%', maxWidth: 380 }}
+          imgStyle={{ width: '100%', maxWidth: 300 }}
           onSaibaMais={() => openDialog('analise')}
           onAdquirir={handleAdquirir}
         />
@@ -39,9 +39,9 @@ const Benefits = () => {
           className="benefit-card-secondary"
           title="Elarin | Personalização"
           description="Nosso software se adapta ao seu nível de condicionamento e objetivos, oferecendo treinos personalizados e correções específicas para cada tipo de exercício."
-          imgSrc="images/sys.jpeg"
+          imgSrc="images/sys.png"
           imgAlt="Logo Elarin"
-          imgStyle={{ width: '100%', maxWidth: 780, marginBottom: 20, borderRadius: 10 }}
+          imgStyle={{ width: '100%', maxWidth: 580, marginBottom: 20, borderRadius: 10 }}
           onSaibaMais={() => openDialog('personalizacao')}
           onAdquirir={handleAdquirir}
         />
