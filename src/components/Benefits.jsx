@@ -18,7 +18,7 @@ const Benefits = () => {
         description="Software inteligente que utiliza Inteligência Artificial Generativa para analisar e corrigir, em tempo real, os movimentos durante os treinos. <br/> Oferecemos uma experiência segura, eficiente e personalizada, reduzindo riscos de lesões."
         imgSrc="images/move.png"
         imgAlt="Elarin AI"
-        imgStyle={{ width: '100%', maxWidth: 600, marginBottom: 20, borderRadius: 10 }}
+        imgStyle={{ width: '100%', maxWidth: 700, marginBottom: 20, borderRadius: 10 }}
         onSaibaMais={() => openDialog('elarin')}
         onAdquirir={handleAdquirir}
       />
