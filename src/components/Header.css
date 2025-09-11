@@ -18,7 +18,7 @@
 }
 
 .logo-image {
-  height: 35px;
+  height: 55px;
   width: auto;
   object-fit: contain;
 }
@@ -112,10 +112,6 @@
 @media (max-width: 480px) {
   .header-container {
     padding: 0 16px;
-  }
-
-  .logo-image {
-    height: 45px;
   }
 }
 

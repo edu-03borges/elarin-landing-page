@@ -1,5 +1,5 @@
 .specs {
-  background-color: #f7f7f7;
+  background-color: var(--background-light);
 }
 
 .specs-grid {
@@ -10,7 +10,7 @@
 }
 
 .spec-category {
-  background-color: white;
+  background-color: var(--background-white);
   padding: 40px 30px;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
@@ -26,7 +26,7 @@
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
-  color: #171a20;
+  color: var(--text-dark);
   text-align: center;
   position: relative;
 }
@@ -39,14 +39,14 @@
   transform: translateX(-50%);
   width: 60px;
   height: 3px;
-  background: linear-gradient(90deg, #e31837, #ff6b35);
+  background: linear-gradient(90deg, var(--primary-color), var(--primary-light));
   border-radius: 2px;
 }
 
 .spec-item {
   margin-bottom: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--border-light);
 }
 
 .spec-item:last-child {
@@ -58,7 +58,7 @@
 .spec-title {
   font-size: 16px;
   font-weight: 600;
-  color: #171a20;
+  color: var(--text-dark);
   margin-bottom: 8px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -66,7 +66,7 @@
 
 .spec-value {
   font-size: 16px;
-  color: #5c5e62;
+  color: var(--text-light);
   line-height: 1.6;
 }
 

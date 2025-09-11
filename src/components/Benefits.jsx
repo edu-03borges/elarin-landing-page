@@ -39,9 +39,9 @@ const Benefits = () => {
           className="benefit-card-secondary"
           title="Elarin | Personalização"
           description="Nosso software se adapta ao seu nível de condicionamento e objetivos, oferecendo treinos personalizados e correções específicas para cada tipo de exercício."
-          imgSrc="images/sys.png"
+          imgSrc="images/sys.jpeg"
           imgAlt="Logo Elarin"
-          imgStyle={{ width: '70%', maxWidth: 380, marginBottom: 20, borderRadius: 10 }}
+          imgStyle={{ width: '100%', maxWidth: 780, marginBottom: 20, borderRadius: 10 }}
           onSaibaMais={() => openDialog('personalizacao')}
           onAdquirir={handleAdquirir}
         />

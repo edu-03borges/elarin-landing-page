@@ -76,7 +76,7 @@
 
 .hero-actions .btn {
   background-color: rgba(255, 255, 255, 0.9);
-  color: #171a20;
+  color: var(--text-dark);
   border-color: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(10px);
   padding: 8px 15px;
@@ -99,7 +99,7 @@
 
 .hero-actions .btn-secondary:hover {
   background-color: white;
-  color: #171a20;
+  color: var(--text-dark);
 }
 
 .hero-scroll-indicator {

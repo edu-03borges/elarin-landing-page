@@ -1,5 +1,5 @@
 .benefits-container {
-  background: #fff;
+  background: var(--background-white);
 }
 
 .benefits-group {
@@ -22,12 +22,12 @@
 }
 
 .benefit-card-main {
-  background: linear-gradient(to bottom right, #008a6f1a, #f5f5f7);
+  background: linear-gradient(to bottom right, var(--primary-alpha-10), var(--background-light));
   margin: 20px;
 }
 
 .benefit-card-secondary {
-  background: #f5f5f7;
+  background: var(--background-light);
   width: 100%;
 }
 
@@ -41,13 +41,13 @@
 .benefit-title {
   font-size: 32px;
   font-weight: 600;
-  color: #1d1d1f;
+  color: var(--text-dark);
   margin-bottom: 16px;
 }
 
 .benefit-description {
   font-size: 18px;
-  color: #6e6e73;
+  color: var(--text-muted);
   margin-bottom: 30px;
   text-align: center;
   line-height: 1.6;
@@ -73,10 +73,10 @@
   align-items: center;
   border-radius: 8px;
   overflow: hidden;
-  background: url('/images/alexa.png') center / cover no-repeat;
+  background: url('/images/fo2.png') center / cover no-repeat;
   padding: 50px 40px;
   margin: 20px;
-  height: 680px;
+  height: 540px;
 }
 
 .overlay-content {
@@ -90,7 +90,7 @@
 }
 
 .overlay-content .benefit-description {
-  color: #1d1d1f;
+  color: var(--text-dark);
 }
 
 .overlay-content .benefit-actions {
@@ -106,23 +106,23 @@
 }
 
 .btn-primary-s {
-  background: #008a6f;
+  background: var(--primary-color);
   color: #fff;
   border: none;
 }
 
 .btn-primary-s:hover {
-  background: #006f5b;
+  background: var(--primary-dark);
 }
 
 .btn.btn-outline-s {
   background: transparent;
-  border: 2px solid #008a6f;
-  color: #008a6f;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
 }
 
 .btn.btn-outline-s:hover {
-  background: #008a6f10;
+  background: var(--primary-alpha-10);
 }
 
 /* Dialog */
@@ -139,7 +139,7 @@
 }
 
 .benefit-dialog-content {
-  background: white;
+  background: var(--background-white);
   padding: 30px;
   border-radius: 10px;
   max-width: 500px;

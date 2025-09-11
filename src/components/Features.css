@@ -1,5 +1,5 @@
 .features {
-  background-color: white;
+  background-color: var(--background-white);
 }
 
 .features-content {
@@ -13,13 +13,13 @@
   font-size: 48px;
   font-weight: 500;
   margin-bottom: 24px;
-  color: #171a20;
+  color: var(--text-dark);
   line-height: 1.2;
 }
 
 .features-description {
   font-size: 20px;
-  color: #5c5e62;
+  color: var(--text-light);
   margin-bottom: 40px;
   line-height: 1.6;
 }
@@ -39,7 +39,7 @@
 .feature-icon {
   width: 48px;
   height: 48px;
-  background: linear-gradient(135deg, #e31837, #ff6b35);
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -51,19 +51,19 @@
 
 .feature-item:hover .feature-icon {
   transform: scale(1.1);
-  box-shadow: 0 8px 25px rgba(227, 24, 55, 0.3);
+  box-shadow: 0 8px 25px var(--primary-alpha-20);
 }
 
 .feature-title {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 8px;
-  color: #171a20;
+  color: var(--text-dark);
 }
 
 .feature-description {
   font-size: 16px;
-  color: #5c5e62;
+  color: var(--text-light);
   line-height: 1.6;
 }
 
