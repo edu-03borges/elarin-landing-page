@@ -52,7 +52,7 @@ const Hero = () => {
 
       <div className="hero-content" style={{ position: 'relative', zIndex: 2 }}>
         <div className="hero-text">
-          <h1 className="hero-title">CORREÇÃO INTELIGENTE</h1>
+          <h1 className="hero-title">Correção Inteligente</h1>
           <p className="hero-subtitle">IA com Visão Computacional para Exercícios Seguros</p>
         </div>
 
